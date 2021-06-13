@@ -631,7 +631,8 @@ ul {
   transition: transform var(--timing-function) var(--transition-duration);
 }
 
-.product.card .link:hover .product-overlay {
+.product.card .link:hover .product-overlay,
+.product.card .link:focus .product-overlay {
   transform: translateY(0);
 }
 
